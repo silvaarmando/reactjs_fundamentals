@@ -25,6 +25,13 @@ export function Post() {
             </span>
           </div>
         </div>
+
+        <time
+          title='19 de junho às 12:30'
+          dateTime='2022-06-19 12:30:45'
+        >
+          Publicado há 1h
+        </time>
       </header>
 
       <div
@@ -38,17 +45,34 @@ export function Post() {
         </p>
         <p>
           <a
-            href=''
+            href='#'
           >
+            🚀
+            {' '}
             armandosilva.dev/widgetcursor      
           </a>
         </p>
         <p>
           <a
-            href=''
+            href='#'
           >
-            #newproject #nlw #rocketseat #nlwreturn
-          </a>
+            #newproject
+          </a>{' '}
+          <a
+            href='#'
+          >
+            #nlw
+          </a>{' '}
+          <a
+            href='#'
+          >
+            #rocketseat
+          </a>{' '}
+          <a
+            href='#'
+          >
+            #nlwreturn
+          </a>{' '}
         </p>        
       </div>
     </article>

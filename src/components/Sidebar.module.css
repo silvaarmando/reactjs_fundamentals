@@ -1,4 +1,4 @@
-sidebar {
+.sidebar {
   background: var(--gray-800);
   border-radius: 0.5rem;
   overflow: hidden;
@@ -19,7 +19,7 @@ sidebar {
 }
 
 .profile .avatar {
-  /* box-sizing: calc(3rem + 0.75rem); */
+  /* box-sizing: calc(3rem + 0.75rem); */ 
   width: calc(3rem + 0.75rem);;
   height: calc(3rem + 0.75rem);;
   border-radius: 0.5rem;
