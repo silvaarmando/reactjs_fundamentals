@@ -1,12 +1,16 @@
-import { Header } from "./components/Header"
+import {
+  Header
+} from "./components/Header"
+import {
+  Sidebar
+} from "./components/Sidebar"
 import {
   Post
-} from "./Post"
-
-import './global.css'
+} from "./components/Post"
 
 import styles from './App.module.css'
-import { Sidebar } from "./components/Sidebar"
+
+import './global.css'
 
 export function App() {
   return (
